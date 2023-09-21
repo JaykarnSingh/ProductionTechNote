@@ -1,7 +1,7 @@
 const mongoose=require('mongoose')
 const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, 'config.env') });
-const="mongodb+srv://jaykarn:jaykarn@cluster0.ujncegx.mongodb.net/";
+const db="mongodb+srv://jaykarn:jaykarn@cluster0.ujncegx.mongodb.net/";
 
 
 
