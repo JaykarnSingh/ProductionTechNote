@@ -5,7 +5,7 @@ require('dotenv').config({ path: path.join(__dirname, 'config.env') });
 
 
 
-    const DB = "mongodb+srv://jaykarn:jaykarn@cluster0.ujncegx.mongodb.net/";
+    const DB =process.env.DATABASE;
 
    mongoose.connect(DB, {
     useNewUrlParser: true,
